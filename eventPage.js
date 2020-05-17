@@ -11,7 +11,7 @@ function fixedEncodeURI (str){
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
 	if (clickData.menuItemId == "SS" && clickData.selectionText){
-		var stackUrl ="https://stackoverflow.com/questions/" + Math.random()*10000 + fixedEncodeURI(clickData.selectionText);
+		var stackUrl ="https://stackoverflow.com/questions/tagged/" + fixedEncodeURI(clickData.selectionText);
 		var createData = {
 			"url": stackUrl,
 			"type": "popup",
