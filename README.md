@@ -1,3 +1,3 @@
 # StackOverflow-Chrome-Extension
 
-This is the first chrome extension that i made
+Chrome extension which searches for the tag in StackOverflow and list out results
